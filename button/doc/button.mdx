@@ -1,0 +1,18 @@
+import { mdx } from '@mdx-js/react';
+import { Props, Description } from '@divriots/dockit-react/props';
+import { Playground } from '@divriots/dockit-react/playground';
+import { DefaultLayout } from '~/mdx-layout';
+export default DefaultLayout;
+import { Button } from '~/components/Button';
+
+# Button
+
+<Description of={Button} />
+
+## Usage
+
+```tsx
+import { Button } from '~/components/Button';
+
+<Button label="Click Me" onClick={() => alert('Button clicked!')} />;
+```
